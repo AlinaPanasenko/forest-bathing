@@ -11,3 +11,17 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
+
+/* heading with logo */
+#logo {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
