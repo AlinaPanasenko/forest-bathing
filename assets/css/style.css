@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #839C49;
+    /*background-color: #839C49;*/
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
@@ -21,7 +21,29 @@ body {
     height: 100px;
 }
 
-img {
+#logo img {
     width: 100%;
     max-width: 100%;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+}
+
+
+#menu {
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+}
+
+ul li {
+    float: left;
+    margin-left: 20px;
 }
