@@ -64,11 +64,11 @@ ul li {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #2c0511;
+    border-bottom: 2px solid #721907;
 }
 
 .active {
-    border-bottom: 1px solid #2c0511;
+    border-bottom: 2px solid #721907;
 }
 
 /* hero-image */
@@ -83,9 +83,14 @@ ul li {
     font-size: 130%;
     text-transform: uppercase;
 
-    width: 600px;
-    height: 200px;
+    width: 500px;
+    height: 150px;
 
     padding-top: 20px;
+    padding-left: 40px;
+    background-color: rgb(226, 114, 91, .6);
 
+    bottom: 30px;
+    right: 180px;
+    position: absolute;
 }
