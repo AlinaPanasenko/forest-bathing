@@ -36,6 +36,10 @@ h1, h2 {
     font-size: 120%;
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
 
 #menu {
     float: right;
@@ -46,4 +50,19 @@ h1, h2 {
 ul li {
     float: left;
     margin-left: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #2c0511;
+    background-color: #C5F8FF;
+    font-weight: 600;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #2c0511;
+}
+
+.active {
+    border-bottom: 1px solid #2c0511;
 }
