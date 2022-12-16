@@ -7,11 +7,14 @@
 }
 
 body {
-    /*background-color: #839C49;*/
+    background-color: #799869;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
 
+header {
+    background-color: #798A97;
+}
 /* heading with logo */
 #logo {
     position: absolute;
@@ -24,6 +27,7 @@ body {
 #logo img {
     width: 100%;
     max-width: 100%;
+    border-radius: 50%;
 }
 
 h1, h2 {
@@ -37,7 +41,7 @@ h1, h2 {
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 60px;
 }
 
 
@@ -49,13 +53,12 @@ h1, h2 {
 
 ul li {
     float: left;
-    margin-left: 20px;
+    margin-left: 20px;   
 }
 
 #menu a {
     text-decoration: none;
     color: #2c0511;
-    background-color: #C5F8FF;
     font-weight: 600;
 }
 
@@ -66,3 +69,12 @@ ul li {
 .active {
     border-bottom: 1px solid #2c0511;
 }
+
+/* hero-image */
+#hero-image {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image2.jpg') no-repeat center bottom;
+}
+
