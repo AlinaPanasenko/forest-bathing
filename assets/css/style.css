@@ -13,15 +13,16 @@ body {
 }
 
 header {
-    background-color: #798A97;
+    background-color: #799869;
+    height: 90px;
 }
 /* heading with logo */
 #logo {
     position: absolute;
     margin-top: 10px;
     margin-left: 10px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 #logo img {
@@ -58,7 +59,7 @@ ul li {
 
 #menu a {
     text-decoration: none;
-    color: #2c0511;
+    color: #721907;
     font-weight: 600;
 }
 
@@ -72,9 +73,19 @@ ul li {
 
 /* hero-image */
 #hero-image {
-    overflow: hidden;
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image2.jpg') no-repeat center bottom;
+    background: url('../images/hero-image-resized.jpg') center center;
 }
 
+#cover-text {
+    color: #fff;
+    font-size: 130%;
+    text-transform: uppercase;
+
+    width: 600px;
+    height: 200px;
+
+    padding-top: 20px;
+
+}
