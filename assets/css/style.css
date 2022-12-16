@@ -94,3 +94,14 @@ ul li {
     right: 180px;
     position: absolute;
 }
+
+footer {
+    height: 90px;
+}
+
+.social-platforms {
+    text-align: center;
+    display: inline;
+    font-size: large;
+    color: #721907;
+}
