@@ -14,15 +14,16 @@ body {
 
 header {
     background-color: #799869;
-    height: 90px;
+    height: 100px;
 }
+
 /* heading with logo */
 #logo {
     position: absolute;
     margin-top: 10px;
     margin-left: 10px;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 
 #logo img {
@@ -41,12 +42,8 @@ h1, h2 {
     font-size: 120%;
 }
 
-#menu, #logo {
-    line-height: 60px;
-}
-
-
 #menu {
+    line-height: 60px;
     float: right;
     list-style-type: none;
     margin: 20px;
@@ -76,32 +73,46 @@ ul li {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image-resized.jpg') center center;
+    overflow: hidden;
+    position: relative;
 }
 
 #cover-text {
     color: #fff;
     font-size: 130%;
     text-transform: uppercase;
+    text-align: justify;
+    letter-spacing: 1px;
 
     width: 500px;
-    height: 150px;
+    height: 130px;
 
-    padding-top: 20px;
-    padding-left: 40px;
+    padding: 15px 12px 15px 12px;
     background-color: rgb(226, 114, 91, .6);
 
-    bottom: 30px;
-    right: 180px;
+    bottom: 60px;
+    right: 120px;
+
     position: absolute;
 }
 
 footer {
     height: 90px;
+    background-color: #E1FFD8;
 }
 
 .social-platforms {
     text-align: center;
+    text-decoration: none;
+}
+
+.social-platforms > li {
     display: inline;
-    font-size: large;
+}
+
+.social-platforms i {
+    font-size: 150%;
+    margin: 10%;
+    padding: 5%;
     color: #721907;
 }
