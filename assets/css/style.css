@@ -83,6 +83,7 @@ ul li {
     text-transform: uppercase;
     text-align: justify;
     letter-spacing: 1px;
+    line-height: 1.2;
 
     width: 500px;
     height: 130px;
