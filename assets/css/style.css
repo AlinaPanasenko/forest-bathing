@@ -68,8 +68,8 @@ ul li {
 
 #hero-image {
     height: 600px;
-    width: 100%;
-    background: url('../images/hero-image-resized.jpg') center center;
+    width: auto;
+    background: url('../images/hero-image-resized.jpg') center bottom;
     overflow: hidden;
     position: relative;
 }
@@ -103,6 +103,12 @@ ul li {
     justify-content: space-around;
     /*background-color: #D4F4FF;*/
     background-color: #F6EDD9;
+    background-image: url('../images/gallery-6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 .flexbox-container p {
@@ -116,6 +122,12 @@ ul li {
     /*background-color: #5A7A98;*/
     background-color: #75976D;
     
+    
+}
+
+.icon {
+    font-size: 150%;
+    text-align: center;
 }
 
 hr {
