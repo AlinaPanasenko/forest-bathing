@@ -215,3 +215,16 @@ footer {
     color: #721907;
 }
 
+/* gallery */
+
+#pictures {
+    clear: both;
+    line-height: 10px;
+    column-count: 3;
+    column-gap: 3px;
+    background-color: #D4F4FF;
+}
+
+#pictures > img {
+    width: 100%;
+}
