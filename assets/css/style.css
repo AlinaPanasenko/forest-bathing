@@ -32,10 +32,6 @@ header {
     border-radius: 50%;
 }
 
-h1, h2 {
-    text-transform: uppercase;
-}
-
 /* navigation links */
 
 #menu {
@@ -96,6 +92,36 @@ ul li {
     right: 120px;
 
     position: absolute;
+}
+
+/* flexbox */
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*background-color: #D4F4FF;*/
+    background-color: #F6EDD9;
+}
+
+.flexbox-container p {
+    font-size: 120%;
+}
+
+.flexbox-item {
+    width: 450px;
+    margin: 10px;
+    padding: 10px;
+    /*background-color: #5A7A98;*/
+    background-color: #75976D;
+    
+}
+
+hr {
+    border-top: 1px solid black;
+    width: 100%;
+    margin: 3px;
 }
 /* footter and social network buttons */
 
