@@ -204,6 +204,14 @@ footer {
     color: #721907;
 }
 
+/* thank you page */
+
+.thank-you {
+    background-color: rgb(63, 74, 60, .7);
+    background: transparent;
+    color: #fafafa;
+}
+
 /* gallery */
 
 #pictures {
