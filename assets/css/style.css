@@ -207,9 +207,14 @@ footer {
 /* thank you page */
 
 .thank-you {
-    background-color: rgb(63, 74, 60, .7);
-    background: transparent;
-    color: #fafafa;
+    letter-spacing: 2px;
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgb(114, 25, 7, .8);
+    max-width: 800px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
 }
 
 /* gallery */
