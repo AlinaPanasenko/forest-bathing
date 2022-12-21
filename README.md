@@ -63,9 +63,27 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
+## Technologies
 
-- Another feature idea
+- HTML
+
+  - The structure of the website was developed using HTML as the main language.
+
+- CSS
+  - The website was styled using custom CSS in an external file in separate folder.
+
+- GitHub
+  - Was used as a workspace for developing of the website.
+
+- GitPod
+  - Tool used to commit and push code to GitHub during the development of the website.
+
+- Git
+  - Tool used to commit and push code to GitHub during the development of the website.
+
+- Font Awesome
+  - Icons obtained from https://fontawesome.com/ were used as the Social Media links in the footer section and as decoration through the text content.
+
 
 ## Testing 
 
