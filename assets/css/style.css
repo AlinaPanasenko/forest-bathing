@@ -88,6 +88,9 @@ ul li {
 
     padding: 15px 12px 15px 12px;
     background-color: rgb(214, 66, 36, .6);
+
+    /* margin-left: auto; for cover-text was suggested during tutoring session as the solution to the cover-text
+    misplacement regarding hero-image */
     margin-left: auto;
     margin-top: 380px;
  
@@ -129,6 +132,9 @@ ul li {
 footer {
     height: 90px;
     background-color: #E1FFD8;
+
+    /* this part of code were suggested by my mentor as solution to the code bag - 
+    footer didn't react to the text-alignment: center; */
     display: flex;
     align-items: center;
     justify-content: center;

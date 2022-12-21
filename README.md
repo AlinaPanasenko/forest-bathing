@@ -1,8 +1,7 @@
 # Love Running
 
-Forest Bathing website introduce visitors to principle of 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+Forest Bathing website introduces users to the concept of 
+that help people reconnect with nature, maintain a healthy lifestyle and deal with emotional and mental burnout.
 
 ![Responsive Mockup](assets/images/RM_Mocup%20for%20common%20screen%20sizes.png)
 
