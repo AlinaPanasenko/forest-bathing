@@ -70,7 +70,7 @@ ul li {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image-resized.jpg') center bottom;
+    background: url('../images/hero-image-resized.webp') center bottom;
     overflow: hidden;
     
 }
@@ -101,7 +101,7 @@ ul li {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #F6EDD9;
-    background-image: url('../images/flexbox_image.png');
+    background-image: url('../images/flexbox_image.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
