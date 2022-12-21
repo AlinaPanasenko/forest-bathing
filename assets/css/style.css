@@ -243,14 +243,7 @@ footer {
     margin-right: 0;
     margin-top: 380px;
     }
-
-    #pictures {
-        column-count: 4;
-    }
-
-    #pictures > img {
-        width: 100%;
-    }
+    
 }
 
 /* For medium screen sizes from 950px wide and down */
