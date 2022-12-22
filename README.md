@@ -1,67 +1,63 @@
-# Love Running
+# Forest Bathing
 
-Forest Bathing website introduces users to the concept of 
-that help people reconnect with nature, maintain a healthy lifestyle and deal with emotional and mental burnout.
+Forest Bathing website introduces users to the concept of Forest Bathing
+that helps people reconnect with nature, maintain a healthy lifestyle and deal with emotional and mental burnout.
+The website dedicated to people of all ages and social groups.
 
 ![Responsive Mockup](assets/images/RM_Mocup%20for%20common%20screen%20sizes.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
-- __Navigation Bar__
+- __The Header__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Contains the Logo image with link to the Home page and the Navigation Menu.
+  - The Navigation Menu contains links to the Home, Gallery and Find a Group pages and will be responsive on all devices.
+  - This will allow users to easily navigate between the pages within the site on any size device.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Header](assets/images/RM_Header.png)
 
-- __The landing page image__
+- __The Landing page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The Landing page includes a photograph with text overlay to allow the user to read about what Forest Bathing actually is. 
+  - This section introduces the user to Forest Bathing with beautiful photo and an eye catching design to grab their attention.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](assets/images/RM_Landing_page.png)
 
-- __Club Ethos Section__
+- __The Information Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The Information section will allow the user to see the benefits of implementing the Forest Bathing moto in their own life, as well as the benefits of regular walking overall. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Club Ethos](assets/images/rm_information_section.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media pages for Forest Bathing and will be responsive on all devices. The links will open to a new tab to allow easy navigation for the user.
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](assets/images/rm_footer.png)
 
-- __Gallery__
+- __The Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The Gallery pages containes appealing relevant photos that are used to inspire people to go outside and take a walk.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](assets/images/rm_gallery.png)
 
-- __The Sign Up Page__
+- __The Find a Group page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the users to get signed up to Forest Bathing site and help them to find a group in their area. The user will be asked to submit their full name and email address.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Find a Group](assets/images/rm_find_a_group.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __The Thank you page__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - After submitting a form user will be redirected to the Thank you for submitting a form page with the relevant message. This would allow the user to know that his data have been received.
+
+![Thank You](assets/images/rm_thank_you_page.png)
+
+
 
 ## Technologies
 
@@ -84,77 +80,68 @@ In addition, you may also use this section to discuss plans for additional featu
 - Font Awesome
   - Icons obtained from https://fontawesome.com/ were used as the Social Media links in the footer section and as decoration through the text content.
 
+- LOGO.com
+  - Logo image for the header was made with https://logo.com/ service.
+
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- All pages of this website were tested on Google Chrome and Mozilla Firefox browsers.
+- I confirmed that this site is responsive, looks good and functions on all standard screen sizes implemented in the devtools device toolbar.
+- I confirmed that the navigation, information section, sign up form, and submission message are all readable and easy to understand as was confirmed with https://webaim.org/ service.
+- https://wave.webaim.org/ tool was used for final testing of the deployed website to check for any aid accessibility testing. No Errors was found.
+- I confirmed that the form works: requires entries in every field and accepts only an email in the email field.
+- Lighthouse testing was implemented for every page of the website in desktop and mobile versions. It sows 100% Accessibility in every case.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+<img src="assets/images/RM_Lighthouse.png">
 
 
 ### Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
   <img src="assets/images/RM_HTML_Validation.png">
+
 
 - CSS
   - No errors or warnings were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
   <img src="assets/images/RM_CSS_Validation.png">
 
-### Unfixed Bugs
+ ### Functional testing
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- Testing was performed on all the navigation links on all the website pages, to ensure that they navigate to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+- Footer Social Media Icons / Links
+
+  - Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+  - Each item opened a new tab when clicked as expected and correct hover color was present. 
+
+## Fixed Bags 
+- There was a problem with the responsiveness of the hero-image and cover-text section of the Home page and I get help from tutor with this part of code. I've commented on it in the style.css and index.html files.
+- Also, there was a problem with centring social platforms icons in the footer section and I get help from my mentor. I commented on it in the style.css file.
+
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+- The site was created using the GitPod code editor and pushed to GitHub to the remote repository ‘forest-bathing’.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- The site was deployed to GitHub pages.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://alinapanasenko.github.io/forest-bathing/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Main structure of the website, the Footer and The Header part of code were taken from [The Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/).
+- The text for the Home page was taken from the article "6 Surprising Health Benefits of Walking Through a Forest", Psychology Today written by Marlynn Wei M.D., J.D. The article can be found by the following link:
+https://www.psychologytoday.com/ie/blog/urban-survival/202108/6-surprising-health-benefits-walking-through-forest#:~:text=Forest%20walking%20promotes%20relaxation.,system%2C%20or%20parasympathetic%20nervous%20system
+- Instructions on how to implement form section on the Find a Group page was taken from [Signup Form: Challenge](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/) for the Love Running project.
+- The icons in the Footer and Information section of the Home page were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+- The photos used on Forest Buthing website were takeb from https://www.pexels.com/ , https://pikwizard.com/ , https://www.rawpixel.com/ open source websites.
